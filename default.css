@@ -1,0 +1,52 @@
+
+    /* 基本的页面样式 */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 800px;
+      text-align: center;
+    }
+
+    .instructions-container {
+      margin-bottom: 20px;
+    }
+
+    .stimulus-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .stimulus-item {
+      width: 250px;
+      height: 250px;
+      margin: 25px;
+      padding: 25px;
+      border: 2px solid #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 36px;
+    }
+
+    .thank-you {
+      font-size: 48px;
+      margin-top: 50px;
+    }
+
+    .feedback {
+      font-size: 48px;
+    }
+
+    .start-formal {
+      font-size: 48px;
+    }
